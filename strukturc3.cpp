@@ -25,7 +25,9 @@ int main(){
     cout << "\t nama desa : ";
     cin >> mhs.alamat.desa;
     cin.ignore(1,'\n');
-    
-   
+    cout << "\t nama kota : ";
+    cin >> mhs.alamat.kota;
+    cin.ignore(1,'\n');
+
 
 }
