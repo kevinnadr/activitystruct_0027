@@ -1,13 +1,27 @@
 #include <iostream>
 using namespace std;
 
-struct DetailAlamat{
+struct DetailAlamat {
     string desa;
     string kota;
 };
+
 struct mahasiswa {
     string nim;
     string nama;
-    string alamat;
-    string umur;
+    DetailAlamat alamat;
+    int umur;
 };
+
+int main(){
+    mahasiswa mhs;
+    cout << "nomor mahasiswa: ";
+    cin >> mhs.nim;
+    cout << "nama mahasiswa : ";
+    cin >> mhs.nama;
+
+    cout << "alamat mahasiswa : "<<endl;
+    cout << "\t nama desa : ";
+    cin >> mhs.alamat.desa;
+   
+}
