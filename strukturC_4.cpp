@@ -23,5 +23,19 @@ int main(){
         getline(cin,mhs[i].nama);
         
 
+        cout << "alamat mahasiswa : "<<endl;
+        cout << "\t nama desa : ";
+        cin >> mhs[i].alamat.desa;
+        cin.ignore(1,'\n');
+        cout << "\t nama kota : ";
+        cin >> mhs[i].alamat.kota;
+        cin.ignore(1,'\n');
+
+        cout << "umur mahasiswa : ";
+        cin >> mhs[i].umur;
+        cin.ignore(1,'\n');
+        cout<<endl; 
+    }
+   
 
 }
