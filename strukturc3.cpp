@@ -29,5 +29,15 @@ int main(){
     cin >> mhs.alamat.kota;
     cin.ignore(1,'\n');
 
+    cout << "umur mahasiswa : ";
+    cin >> mhs.umur;
+
+    cout << endl;
+    cout <<"\n nim : "<<mhs.nim;
+    cout <<"\n nama : "<<mhs.nama;
+    cout <<"\n alamat : ";
+    cout <<"\n \t desa : "<< mhs.alamat.desa;
+    cout <<"\n \t kota : "<< mhs.alamat.kota;
+   
 
 }
